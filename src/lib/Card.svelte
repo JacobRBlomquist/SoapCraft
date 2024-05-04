@@ -8,7 +8,7 @@
             <p class="card-header-title">{title}</p>
             <button class="card-header-icon" aria-label="more options">
                 <span class="icon">
-                    <i class="fa-solid fa-chevron-down"></i>
+                    <i class="fa-solid fa-circle-info"></i>
                 </span>
             </button>
         </header>

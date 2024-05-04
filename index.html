@@ -1,13 +1,24 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Svelte + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/soap.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Svelte + TS</title>
+</head>
+
+<body>
+  <main class="container">
+    <h1 class="title"><img src="/soap.svg" alt="Soap Bar Icon" class="icon">SoapCraft Soap Calculator</h1>
+    <h2 class="subtitle">
+      Made by <a href="https://blomquist.xyz" target="_blank">Jacob Blomquist</a>
+    </h2>
+    <div class="fixed-grid has-2-cols-desktop has-1-cols-mobile">
+      <div id="app"></div>
+    </div>
+  </main>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
