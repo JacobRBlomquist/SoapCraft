@@ -6,10 +6,8 @@
     <div class="card">
         <header class="card-header">
             <p class="card-header-title">{title}</p>
-            <button class="card-header-icon" aria-label="more options">
-                <span class="icon">
-                    <i class="fa-solid fa-circle-info"></i>
-                </span>
+            <button class="card-header-icon tooltip" aria-label="more options">
+                <slot name="tooltip" />
             </button>
         </header>
         <div class="card-content">

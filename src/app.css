@@ -1,5 +1,7 @@
 @import 'bulma/css/bulma.css';
+@import '@creativebulma/bulma-tooltip';
 @import '@fortawesome/fontawesome-free/css/all.min.css';
+
 html {
     max-width: 120ch;
     padding: 1em;

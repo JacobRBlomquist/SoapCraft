@@ -2,7 +2,16 @@
     import Card from "./Card.svelte";
 </script>
 
+
 <Card title="2 - Select recipe units of measure">
+    <div slot="tooltip" class="tooltip">
+        <span
+        class="icon has-tooltip-multiline has-tooltip-left"
+        data-tooltip="Choose which unit of measure to use."
+    >
+        <i class="fa-solid fa-circle-info"></i>
+    </span>
+    </div>
     <div class="field">
         <div class="control">
             <label for="radio-percentage" class="radio">
